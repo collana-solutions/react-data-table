@@ -49,4 +49,4 @@ In this configuration the table is fully dynamic meaning that the consumer of th
 
 ### Documentation
 
-Detailed documentation can be found at [ReactDataTable Wiki](https://github.com/neolution-ch/react-data-table/wiki/React-DataTable)
+Detailed documentation can be found at [ReactDataTable Wiki](https://github.com/collana-solutions/react-data-table/wiki/React-DataTable)

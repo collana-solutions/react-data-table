@@ -5,7 +5,7 @@
   "homepage": "https://collana-solutions.github.io/react-data-table",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neolution-ch/react-data-table"
+    "url": "git+https://github.com/collana-solutions/react-data-table"
   },
   "license": "MIT",
   "author": "Neolution",
