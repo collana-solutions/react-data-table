@@ -5,9 +5,9 @@ This package relies heavly on `tanstack/react-table` and `reactstrap` to provide
 ## Installation
 
 ```bash
-npm install @neolution-ch/react-data-table
+npm install @collana-solutions/react-data-table
 or
-yarn add @neolution-ch/react-data-table
+yarn add @collana-solutions/react-data-table
 ```
 
 ### CSS
