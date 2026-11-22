@@ -1,5 +1,28 @@
 # @collana-solutions/react-data-table
 
+## 6.3.1
+
+### Patch Changes
+
+- [#94](https://github.com/collana-solutions/react-data-table/pull/94) [`fbbaa58`](https://github.com/collana-solutions/react-data-table/commit/fbbaa58515f8b2f503cde67e9409ac86024e454b) Thanks [@andreas-bundi](https://github.com/andreas-bundi)! - Add LICENSE file
+
+- [#95](https://github.com/collana-solutions/react-data-table/pull/95) [`1d075e1`](https://github.com/collana-solutions/react-data-table/commit/1d075e19fedad0d6c5a43e12982a444fed967b9e) Thanks [@neotrow](https://github.com/neotrow)! - The package is now published as `@collana-solutions/react-data-table`. The API is unchanged. To migrate, replace the old package with the new one:
+  
+  ```shell
+  npm uninstall @neolution-ch/react-data-table
+  npm install @collana-solutions/react-data-table
+  ```
+  
+  Then change the imports:
+  
+  ```tsx
+  import { ReactDataTable } from "@collana-solutions/react-data-table";
+  ```
+  
+  `@neolution-ch/react-data-table` gets deprecated and receives no further releases.
+  
+  `@dnd-kit/utilities`, which the drag and drop rows already used, is now a declared dependency instead of being bundled into the build.
+
 ## [6.3.0] - 2026-10-20
 
 ### Added
