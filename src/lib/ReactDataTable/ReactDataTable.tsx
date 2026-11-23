@@ -292,6 +292,8 @@ const ReactDataTable = <TData, TFilter extends FilterModel = Record<string, neve
 
   const parentRef = useRef<HTMLDivElement>(null);
 
+  // known issue for tanstack with open ticket: https://github.com/TanStack/virtual/issues/1119
+  // eslint-disable-next-line react-hooks/incompatible-library
   const virtualizer = useVirtualizer({
     ...virtualizerOptions,
     count: totalRecords,
