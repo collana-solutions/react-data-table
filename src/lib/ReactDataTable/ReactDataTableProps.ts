@@ -3,7 +3,7 @@ import { CSSProperties } from "react";
 import { FilterModel } from "../types/TableState";
 import { DragAndDropOptions } from "./DragAndDropOptions";
 import { VirtualizationOptions } from "./VirtualizationOptions";
-import { PagingNavigationComponents } from "@neolution-ch/react-pattern-ui";
+import { PagingNavigationComponents } from "@collana-solutions/react-pattern-ui";
 import { useVirtualizationTableHeightProps } from "../hooks/useVirtualizationTableHeight";
 
 /**

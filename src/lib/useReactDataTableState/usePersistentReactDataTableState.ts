@@ -1,4 +1,4 @@
-import { getLocalStorageItem, setLocalStorageItem } from "@neolution-ch/javascript-utils";
+import { getLocalStorageItem, setLocalStorageItem } from "@collana-solutions/javascript-utils";
 import { OptionalNullable } from "../types/NullableTypes";
 import { useReactDataTableStateProps } from "./useReactDataTableStateProps";
 import { useReactDataTableStateResult } from "./useReactDataTableStateResult";

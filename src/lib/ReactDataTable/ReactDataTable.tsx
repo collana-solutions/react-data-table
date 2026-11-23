@@ -1,9 +1,9 @@
 ﻿/* eslint max-lines: ["error", 400] */
 import { faSortDown, faSortUp, faSearch, faTimes, faSort } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Paging } from "@neolution-ch/react-pattern-ui";
+import { Paging } from "@collana-solutions/react-pattern-ui";
 import { flexRender } from "@tanstack/react-table";
-import { Table as ReactStrapTable, Input } from "@neolution-ch/reactstrap";
+import { Table as ReactStrapTable, Input } from "@collana-solutions/reactstrap";
 import { reactDataTableTranslations } from "../translations/translations";
 import { ReactDataTableProps } from "./ReactDataTableProps";
 import { FilterModel } from "../types/TableState";
