@@ -243,7 +243,7 @@ describe("DataTable", () => {
     render(<ReactDataTable table={table} showPaging totalRecords={dataDynamic?.length} isFetching={false} isLoading={false} />);
 
     const rows = document.querySelectorAll("tr");
-    for (const row of rows) fireEvent.click(row as HTMLElement);
+    for (const row of rows) fireEvent.click(row);
     expect(table.getSelectedRowModel().rows.length).toBe(0);
   });
 });

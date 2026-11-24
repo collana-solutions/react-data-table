@@ -46,7 +46,7 @@ const createReactDataTableColumnHelper = <TData extends RowData>(): ReactDataTab
 
     return columnHelper.display({
       ...columndDef,
-      id: columnKey as string,
+      id: columnKey,
       cell: ({ row }) => <RowDragHandleCell row={row} />,
     });
   };

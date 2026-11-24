@@ -60,8 +60,8 @@ const TableBody = <TData, TFilter extends FilterModel = Record<string, never>>(p
             row={row}
             enableRowClick={enableRowClick}
             onRowClick={onRowClick}
-            enableRowSelection={enableRowSelection as boolean | ((row: Row<TData>) => boolean)}
-            enableExpanding={enableExpanding as boolean | ((row: Row<TData>) => boolean)}
+            enableRowSelection={enableRowSelection}
+            enableExpanding={enableExpanding}
             rowStyle={{
               ...x.rowStyle,
               ...(rowStyle ? rowStyle(row.original) : {}),
@@ -82,8 +82,8 @@ const TableBody = <TData, TFilter extends FilterModel = Record<string, never>>(p
             row={row}
             enableRowClick={enableRowClick}
             onRowClick={onRowClick}
-            enableRowSelection={enableRowSelection as boolean | ((row: Row<TData>) => boolean)}
-            enableExpanding={enableExpanding as boolean | ((row: Row<TData>) => boolean)}
+            enableRowSelection={enableRowSelection}
+            enableExpanding={enableExpanding}
             rowStyle={{
               ...x.rowStyle,
               ...(rowStyle ? rowStyle(row.original) : {}),

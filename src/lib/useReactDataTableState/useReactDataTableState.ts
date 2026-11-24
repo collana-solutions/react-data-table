@@ -27,9 +27,9 @@ const useReactDataTableState = <TData, TFilter extends FilterModel = Record<stri
   const [columnFilters, setColumnFilters] = useState<TFilter>((initialColumnFilters ?? {}) as TFilter);
   const [afterSearchFilter, setAfterSearchFilter] = useState<TFilter>((initialAfterSearchFilter ?? initialColumnFilters ?? {}) as TFilter);
   const [sorting, setSorting] = useState<SortingState<TData> | undefined>(initialSorting);
-  const [rowSelection, setRowSelection] = useState<RowSelectionState>(initialRowSelection ?? ({} as RowSelectionState));
-  const [expanded, setExpanded] = useState<ExpandedState>(initialExpanded ?? ({} as ExpandedState));
-  const [columnPinning, setColumnPinning] = useState<ColumnPinningState>(initialColumnPinning ?? ({} as ColumnPinningState));
+  const [rowSelection, setRowSelection] = useState<RowSelectionState>(initialRowSelection ?? {});
+  const [expanded, setExpanded] = useState<ExpandedState>(initialExpanded ?? {});
+  const [columnPinning, setColumnPinning] = useState<ColumnPinningState>(initialColumnPinning ?? {});
 
   const [pagination, setPagination] = useState<PaginationState>({
     pageIndex: initialPagination?.pageIndex ?? 0,
